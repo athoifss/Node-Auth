@@ -25,11 +25,11 @@ function initDb(callback) {
   }
 }
 
-function getDbMongo() {
+function getDb() {
   return _db;
 }
 
 module.exports = {
-  getDbMongo,
+  getDb,
   initDb,
 };
